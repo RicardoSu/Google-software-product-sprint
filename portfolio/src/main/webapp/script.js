@@ -15,6 +15,49 @@
 /**
  * Adds a random greeting to the page.
  */
+
+
+/*==================== MENU SHOW Y HIDDEN ====================*/
+
+
+/*===== MENU SHOW =====*/
+/* Validate if constant exists */
+
+
+/*===== MENU HIDDEN =====*/
+/* Validate if constant exists */
+
+
+/*==================== REMOVE MENU MOBILE ====================*/
+
+
+/*==================== ACCORDION SKILLS ====================*/
+
+
+/*==================== QUALIFICATION TABS ====================*/
+
+
+/*==================== SERVICES MODAL ====================*/
+
+
+/*==================== PORTFOLIO SWIPER  ====================*/
+
+
+/*==================== TESTIMONIAL ====================*/
+
+
+/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
+
+
+/*==================== CHANGE BACKGROUND HEADER ====================*/ 
+
+
+/*==================== SHOW SCROLL UP ====================*/ 
+
+
+/*==================== DARK LIGHT THEME ====================*/ 
+
+ 
 function addRandomGreeting() {
   const greetings =
       ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
