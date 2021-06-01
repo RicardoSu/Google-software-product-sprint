@@ -1,5 +1,5 @@
 /*==================== GOOGLE FONTS ====================*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -26,16 +26,16 @@
     --body-font: 'Poppins', sans-serif;;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
-    --big-font-size: ;
-    --h1-font-size: ;
-    --h2-font-size: ;
-    --h3-font-size: ;
-    --normal-font-size: ;
-    --small-font-size: ;
-    --smaller-font-size: ;
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938;
+    --small-font-size: 00.813rem;
+    --smaller-font-size: 0.75rem;
 
     /*========== Font weight ==========*/
-    --font-medium: ;
+    --font-medium: 500;
     --font-semi-bold: 600;
 
     /*========== Margenes Bottom ==========*/
@@ -113,16 +113,16 @@ img{
 .section{
     padding: 2rem 0 4rem;
 }
-.section_title{
+.section__title{
     font-size: var(--h1-font-size);
 }
-.section_subtitle{
+.section__subtitle{
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-3);
 }
-.section_title,
-.section_subtitle{
+.section__title,
+.section__subtitle{
     text-align: center;
 }
 /*==================== LAYOUT ====================*/
@@ -153,8 +153,8 @@ img{
     justify-content: space-between;
     align-items: center;
 }
-.nav_logo,
-.nav_toggle{
+.nav__logo,
+.nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
 
@@ -260,12 +260,12 @@ img{
     color: var(--first-color-alt);
 }
 
-.home_blob{
+.home__blob{
     width: 200px;
     fill: var(--first-color);
 }
 
-.home_blop-img{
+.home__blop-img{
     width: 230px;
     height: 230px;
 }
@@ -343,6 +343,45 @@ img{
 }
 
 /*==================== ABOUT ====================*/
+
+.about__img{
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.about__description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__info-title{
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about__info-name{
+    font-size: var(--smaller-font-size);
+}
+
+.about__info-title,
+.about__info-name{
+    display: block;
+    text-align: center;
+}
+
+.about__buttons{
+    display: flex;
+    justify-content: center;
+}
 
 
 /*==================== SKILLS ====================*/
