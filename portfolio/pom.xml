@@ -16,10 +16,16 @@
 
     <!-- Project-specific properties -->
     <exec.mainClass>com.google.sps.ServerMain</exec.mainClass>
-    <googleCloudProjectId>myportofolio-315706</googleCloudProjectId>
+    <googleCloudProjectId>ricardosuarez-sps</googleCloudProjectId>
   </properties>
 
   <dependencies>
+    <!-- Google Cloud Storage -->
+    <dependency>
+    <groupId>com.google.cloud</groupId>
+      <artifactId>google-cloud-storage</artifactId>
+      <version>1.113.0</version>
+    </dependency>
     <!-- Java Servlets API -->
     <dependency>
       <groupId>javax.servlet</groupId>

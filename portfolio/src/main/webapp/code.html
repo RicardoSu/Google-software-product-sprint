@@ -19,7 +19,7 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Ricardo</a>
+                <a href="index.html" class="nav__logo">Ricardo</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
@@ -93,15 +93,31 @@
                         <button onclick="addRandomGreeting()">Hello</button>
                         <div id="greeting-container"></div>
                         </div>
-                        <div>
+                    </div>
+                    <div>
                         <form action="/form-handler" method="POST">
+                        <h1>Submit text to server</h1>       
                         <p>Enter some text here:</p>
                         <textarea name="text-input">hello world</textarea>
                         <br/>
                         <input type="submit" />
                         </form>
+                    </div>
+                    <div>
+                        <h1>Cloud Storage Hello World Example</h1>
+                        <p>Type a message and click submit:</p>
 
-                        </div>
+                        <form action="/upload" method="POST" enctype="multipart/form-data">
+                        <p>Type some text:</p>
+                        <textarea name="message"></textarea>
+                        <br/>
+                        <p>Upload an image:</p>
+                        <input type="file" name="image">
+                        <br/><br/>
+                        <button>Submit</button>
+                        </form>
+
+                        <p><a href="/list-images">Click here to see all of the uploaded images!</a></p>
                     </div>
                 </div>
             </section>
