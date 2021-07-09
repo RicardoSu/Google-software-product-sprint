@@ -1,7 +1,7 @@
 # Google Software Product Sprint
 
 This repo contains Ricardo's portfolio and SPS projects.
-[Website Ricardo Software Product Sprint](https://ricardosuarez-sps.appspot.com/code.html)
+[Website Ricardo Software Product Sprint](https://ricardosuarez.dev/)
 
 To get started:
 
